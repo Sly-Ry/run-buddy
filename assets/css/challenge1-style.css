@@ -3,45 +3,39 @@
     border: 0px;
     box-sizing: border-box;
 }
-
 body {
     font-family:  Helvetica, Arial, sans-serif;
     background-color: grey;
 }
-
+/* Header with links for webpage. */
 header {
     background-color: navy;
     padding: 25px 25px;
 }
-
 header h1 {
     font-size: 45px;
     margin: 0;
     color: white;
     display: inline;
 }
-
 .seo{
     color: rgb(199, 199, 199);
 }
-
 header nav {
     float: right;
     margin: 25px;
     font-size: 15px;
     position: relative;
 }
-
 header nav ul li {
     display: inline;
 }
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-style: normal;
 }
-
+/* The hero for the webpage. */
 .hero {
     background-image: url("../images/digital-marketing-meeting.jpg");
     height: 500px;
@@ -49,13 +43,12 @@ header nav ul li a {
     background-position: center;
     position: relative;
 }
-
-.tech {
+/* Left column, website information. */
+.website-info {
     margin: 0 0 0 25px;
     float: left;
     display: inline;
 }
-
 .info {
     width: 1000px;
     height: 430px;
@@ -64,30 +57,26 @@ header nav ul li a {
     color: white;
     overflow: auto;
 }
-
 .info img {
     margin: 50px;
     width: 40%;
     float: left;
 }
-
 .info-depth {
     margin: 20px 0;
     width: 40%;
     display: inline;
 }
-
 .info-depth h2 {
     font-size: 30px;
     margin-top: 100px;
 }
-
 .info-depth p {
     font-size: 20px;
     padding: 20px;
 }
-
-.part-3 {
+/* Right\Long column-lists of benefits. */
+.benefit-info {
     background-color:rgba(20, 122, 206, 0.952);
     width: 310px;
     display: inline-block;
@@ -96,16 +85,13 @@ header nav ul li a {
     margin: 25px;
     color: white;
 }
-
 .benefit img {
     width: 80%;
 }
-
 .benefit h3 {
     padding: 25px;
     font-size: 30px;
 }
-
 .benefit p {
     font-size: 20px;
     text-align: left;
