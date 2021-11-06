@@ -43,28 +43,22 @@ header nav ul li a {
 }
 
 .hero {
-    display: inline-block;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    height: 800px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-
-
-
-
-.benefits {
-    background-color: #037dbe;
-    text-align: center;
+.info {
+    width: 900px;
+    margin: 15px;
+    background: rgb(20, 64, 146);
+    color: white;
 }
 
-.benefits h3 {
-    font-size: 46px;
-    margin-top: 10px;
-}
-
-.benefits p {
-    font-size: 25px;
+.info img {
+    width: 400px;
+    height: auto;
+    padding: 25px
 }
