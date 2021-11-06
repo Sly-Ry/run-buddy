@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: grey;
+}
+
+header {
+    background-color: navy;
+    padding: 20px 25px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+    color: white;
+    display: inline;
+}
+
+.seo{
+    color: grey;
+}
+
+header nav {
+    float: right;
+    margin: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.hero
+.content
+.search-engine-optimization
+#online-reputation-management
+.online-reputation-management
+.float-left {}
+.float-right {}
+.benifit-brand {}
+.benifit-cost {}
+.footer {}
