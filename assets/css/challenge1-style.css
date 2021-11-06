@@ -11,23 +11,25 @@ body {
 
 header {
     background-color: navy;
-    padding: 20px 25px;
+    padding: 25px 25px;
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 45px;
     margin: 0;
     color: white;
     display: inline;
 }
 
 .seo{
-    color: grey;
+    color: rgb(199, 199, 199);
 }
 
 header nav {
     float: right;
-    margin: 15px;
+    margin: 25px;
+    font-size: 15px;
+    position: relative;
 }
 
 header nav ul li {
@@ -39,13 +41,30 @@ header nav ul li a {
     font-weight: lighter;
     font-style: normal;
 }
-.hero
-.content
-.search-engine-optimization
-#online-reputation-management
-.online-reputation-management
-.float-left {}
-.float-right {}
-.benifit-brand {}
-.benifit-cost {}
-.footer {}
+
+.hero {
+    display: inline-block;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+.benefits {
+    background-color: #037dbe;
+    text-align: center;
+}
+
+.benefits h3 {
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.benefits p {
+    font-size: 25px;
+}
