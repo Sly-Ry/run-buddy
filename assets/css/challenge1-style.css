@@ -9,6 +9,7 @@ body {
     background-color: grey;
 }
 
+/* header and links */
 header {
     background-color: navy;
     padding: 25px 25px;
@@ -50,15 +51,64 @@ header nav ul li a {
     position: relative;
 }
 
+.tech {
+    margin: 0 0 0 25px;
+    float: left;
+    display: inline;
+}
+
 .info {
-    width: 900px;
-    margin: 15px;
-    background: rgb(20, 64, 146);
+    width: 1000px;
+    height: 430px;
+    margin: 25px auto;
+    background: rgba(20, 122, 206, 0.952);
     color: white;
+    overflow: auto;
 }
 
 .info img {
-    width: 400px;
-    height: auto;
-    padding: 25px
+    margin: 50px;
+    width: 40%;
+    float: left;
+}
+
+.info-depth {
+    margin: 20px 0;
+    width: 40%;
+    display: inline;
+}
+
+.info-depth h2 {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.info-depth p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.part-3 {
+    background-color:rgba(20, 122, 206, 0.952);
+    width: 310px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 25px;
+    color: white;
+}
+
+.benefit img {
+    width: 80%;
+}
+
+.benefit h3 {
+    padding: 25px;
+    font-size: 30px;
+}
+
+.benefit p {
+    font-size: 20px;
+    text-align: left;
+    padding: 25px;
 }
