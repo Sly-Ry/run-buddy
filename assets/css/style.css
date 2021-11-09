@@ -10,7 +10,7 @@ body {
     font-family:  Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -49,21 +49,23 @@ header nav ul li a {
     font-size: 1.5vw;
 }
 
+/* Footer Start */
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30p;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
