@@ -66,6 +66,53 @@ header nav ul li a {
 }
 /* End of hero */
 
-.app-1 img {
-    width: 300px;
+/* About Me section start */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.info-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    padding: 25px 0 25px 50px;
+    margin-right: 0;
+    font-size: 250%;
+}
+
+.info-facts {
+    align-items: center; 
+    background-color: rgb(211, 219, 207);
+    flex: 2 70%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.info-facts ul {
+    list-style: none;
+    padding: 30px 0 0 30px;
+}
+
+.info-facts ul li {
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+}
+/* End of "about me" section */
+
+/* My Work section start */
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 219, 207);
+    flex: 2 70%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    height: 100%;
 }
