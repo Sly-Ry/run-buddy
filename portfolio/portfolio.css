@@ -34,7 +34,7 @@ header nav {
     margin: 7px 10px;
 }
 
-header nav ul {
+header nav ul, .contact-info ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -42,7 +42,7 @@ header nav ul {
     list-style: none
 }
 
-header nav ul li a {
+header nav ul li a  {
    font-weight: lighter;
    font-size: 1.5vw;
    padding: 10px 15px;
@@ -72,6 +72,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     background-color: darkgrey;
+    border-bottom: 5px dotted black;
 }
 
 .info-title {
@@ -83,6 +84,7 @@ header nav ul li a {
     padding: 25px 0 25px 50px;
     margin-right: 0;
     font-size: 250%;
+    
 }
 
 .info-facts {
@@ -105,8 +107,7 @@ header nav ul li a {
 /* End of "about me" section */
 
 /* My Work section start */
-
-.apps {
+.apps, .contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -131,17 +132,17 @@ header nav ul li a {
     background-color: rgb(164, 204, 164);
     color: rgb(0, 0, 0);
     border-right: 10px solid rgb(13, 44, 13);
-    height: 25%;
-    width: 20%;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1.5vw;
-}
-
-.app-info h3 {
     text-decoration: underline;
+    font-size: 1.75vw;
 }
 /* End of "my work" section */
 
 /* Contact section */
+.contact-info ul li {
+    padding: 10px;
+}
