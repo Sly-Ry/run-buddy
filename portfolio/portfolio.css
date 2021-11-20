@@ -9,7 +9,7 @@ body {
 }
 /* header start */
 header {
-    padding: 20px 50px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +18,7 @@ header {
     position:-webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 header h1 {
@@ -31,7 +32,7 @@ header a {
 }
 
 header nav {
-    margin: 7px 10px;
+    margin: 5px 10px;
 }
 
 header nav ul, .contact-info ul {
@@ -44,24 +45,31 @@ header nav ul, .contact-info ul {
 
 header nav ul li a  {
    font-weight: lighter;
-   font-size: 1.5vw;
+   font-size: 20px;
    padding: 10px 15px;
 }
+header nav ul li a:hover {
+    background: green;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-shadow: none;
+}
+
 /* End of header */
 
 /* Hero start */
 .hero {
+    background-image: url("./assets/images/72960f5122fb1f3e24259821e060cb4a.jpg");
+    background-size: cover;
+    background-position: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: url(./assets/images/72960f5122fb1f3e24259821e060cb4a.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .hero img {
     width: 100%;
-    height: auto; 
     border: 10px solid black;
 }
 /* End of hero */
@@ -120,9 +128,14 @@ header nav ul li a  {
     height: 100%;
 }
 
-.app {
+.app, .app-1 {
     position: relative;
     border: 5px solid black;
+    width: 400px;
+    margin: 5px;
+}
+.app:hover, .app-1:hover {
+    opacity: .5;
 }
 
 .app-info {
@@ -140,9 +153,18 @@ header nav ul li a  {
     text-decoration: underline;
     font-size: 1.75vw;
 }
+
+.app-1 {
+    width: 100%;
+}
 /* End of "my work" section */
 
 /* Contact section */
 .contact-info ul li {
     padding: 10px;
+}
+.contact-info ul li:hover {
+    background: white;
+    color: green;
+    text-shadow: none;
 }
